@@ -1,0 +1,44 @@
+name: Update databases
+
+on:
+  schedule:
+    # Run off the hour to reduce scheduling congestion.
+    - cron: '30 21 * * *'
+  workflow_dispatch:
+    inputs:
+      accept_shrink:
+        description: Publish datasets that shrank by more than 10%, after reviewing why they did
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+concurrency:
+  group: update-databases
+  cancel-in-progress: false
+
+jobs:
+  update:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: write
+    env:
+      GH_TOKEN: ${{ github.token }}
+      BASE_BRANCH: main
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version-file: '.python-version'
+      - run: python -m pip install --require-hashes -r requirements.txt
+      - name: Run regression tests
+        run: python -m unittest discover -s tests
+      - name: Fetch sources and build datasets
+        run: python scripts/update.py --output dist
+        env:
+          ACCEPT_SHRINK: ${{ inputs.accept_shrink }}
+      - name: Publish changed datasets
+        run: python scripts/release.py dist

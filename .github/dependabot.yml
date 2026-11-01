@@ -1,0 +1,34 @@
+version: 2
+updates:
+  # land-dependabot.yml lands these once Validate passes on the new versions.
+  - package-ecosystem: 'github-actions'
+    directory: '/'
+    schedule:
+      time: '00:00'
+      day: 'monday'
+      interval: 'weekly'
+      timezone: 'Etc/UTC'
+    groups:
+      all-updates:
+        update-types:
+          - 'major'
+          - 'minor'
+          - 'patch'
+    open-pull-requests-limit: 5
+  # A new OpenCC can change the Traditional Chinese conversions, and the next daily run publishes whatever it
+  # produces, so land-dependabot.yml lands only an update that leaves the data unchanged. Any other waits for a
+  # person to compare the output.
+  - package-ecosystem: 'pip'
+    directory: '/'
+    schedule:
+      time: '00:00'
+      day: 'monday'
+      interval: 'weekly'
+      timezone: 'Etc/UTC'
+    groups:
+      all-updates:
+        update-types:
+          - 'major'
+          - 'minor'
+          - 'patch'
+    open-pull-requests-limit: 5

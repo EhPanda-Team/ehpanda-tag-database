@@ -1,49 +1,49 @@
 {
-  "release": "v7.29569.1",
-  "upstream_release": "v7.29569.1",
+  "release": "v7.29645.1",
+  "upstream_release": "v7.29645.1",
   "datasets": {
     "en": {
       "file": "en.json",
-      "sha256": "dafccda5de2759bde70833686657870cdc08750caadcb31dd5ee9a650a39ab05",
-      "tags": 44828,
+      "sha256": "6a8819d5e7ec934b8c51f97b6a1ad7543289bb9b7ad8fb6ce58ec68c3d2bd07c",
+      "tags": 44848,
       "named tags": 0,
-      "upstream_release": "v7.29569.1",
+      "upstream_release": "v7.29645.1",
       "sources": {
         "upstream-db.raw.json": {
-          "url": "https://github.com/EhTagTranslation/Database/releases/download/v7.29569.1/db.raw.json",
-          "sha256": "dabd1878d94eb8336c4208290be9189d20fd9aecf3b69c6ee43bef85b41cf7a2"
+          "url": "https://github.com/EhTagTranslation/Database/releases/download/v7.29645.1/db.raw.json",
+          "sha256": "a8eeac37befd57140b4e0f8f7542d04e966ac9713719eb4906c7d51cbb6ebbc8"
         }
       },
       "failure": null
     },
     "ja": {
       "file": "ja.json",
-      "sha256": "cd2cc12200709698340d49dad6ceb2dd52dc1200722d92d231383e9561726d4c",
-      "tags": 46160,
+      "sha256": "4d94b0a12a92b67fa9636798514ba781eb463cbc18ca34586912fec92dddf920",
+      "tags": 46180,
       "named tags": 25647,
-      "upstream_release": "v7.29564.1",
+      "upstream_release": "v7.29645.1",
       "sources": {
         "upstream-db.raw.json": {
-          "url": "https://github.com/EhTagTranslation/Database/releases/download/v7.29564.1/db.raw.json",
-          "sha256": "726aec111fed15703e93ea9795b43595192f63b6cb431d995c4a5f8156e24139"
+          "url": "https://github.com/EhTagTranslation/Database/releases/download/v7.29645.1/db.raw.json",
+          "sha256": "a8eeac37befd57140b4e0f8f7542d04e966ac9713719eb4906c7d51cbb6ebbc8"
         },
         "e-hentaidb.html": {
           "url": "https://e-hentaidb.com/tag/",
           "sha256": "290422b85f847f64baa1235e4b91fb1eb7296a5f7039151417d88de498b4c066"
         }
       },
-      "failure": "URLError: <urlopen error timed out>"
+      "failure": null
     },
     "ko": {
       "file": "ko.json",
-      "sha256": "8f857cbfc2538e06345329208060cbfc8979d68af0072e38201bba523c89d36b",
-      "tags": 44828,
-      "named tags": 4049,
-      "upstream_release": "v7.29569.1",
+      "sha256": "f0e83a04d05bc2cc3eb8734a4f1047535c271147d83e43e616a9eafd722c7b43",
+      "tags": 44848,
+      "named tags": 4050,
+      "upstream_release": "v7.29645.1",
       "sources": {
         "upstream-db.raw.json": {
-          "url": "https://github.com/EhTagTranslation/Database/releases/download/v7.29569.1/db.raw.json",
-          "sha256": "dabd1878d94eb8336c4208290be9189d20fd9aecf3b69c6ee43bef85b41cf7a2"
+          "url": "https://github.com/EhTagTranslation/Database/releases/download/v7.29645.1/db.raw.json",
+          "sha256": "a8eeac37befd57140b4e0f8f7542d04e966ac9713719eb4906c7d51cbb6ebbc8"
         },
         "korean-tags.json": {
           "url": "https://raw.githubusercontent.com/project-violet/tag-info/51233c8df9fd5d2247a82865ebef29cad8664b26/result-korean-merge.json",
@@ -54,28 +54,28 @@
     },
     "zh-Hans": {
       "file": "zh-Hans.json",
-      "sha256": "dda67441cb2a4840e59e1b8aa64d93b6d6b072c86a25315c3eccb3bc01a11342",
-      "tags": 44828,
-      "named tags": 44828,
-      "upstream_release": "v7.29569.1",
+      "sha256": "117a8f661f575ceead4a92b2233793301d07afc6bbbd46f3e6eb3e0fe9d7b522",
+      "tags": 44848,
+      "named tags": 44848,
+      "upstream_release": "v7.29645.1",
       "sources": {
         "upstream-db.raw.json": {
-          "url": "https://github.com/EhTagTranslation/Database/releases/download/v7.29569.1/db.raw.json",
-          "sha256": "dabd1878d94eb8336c4208290be9189d20fd9aecf3b69c6ee43bef85b41cf7a2"
+          "url": "https://github.com/EhTagTranslation/Database/releases/download/v7.29645.1/db.raw.json",
+          "sha256": "a8eeac37befd57140b4e0f8f7542d04e966ac9713719eb4906c7d51cbb6ebbc8"
         }
       },
       "failure": null
     },
     "zh-Hant": {
       "file": "zh-Hant.json",
-      "sha256": "b609d938cd2af6e402f45fbf2d94ed84dcff529bb092ccf6367d2c821c37d837",
-      "tags": 44828,
-      "named tags": 44828,
-      "upstream_release": "v7.29569.1",
+      "sha256": "866f0fec76903982b45d27b980a5b067be29dc51e05ded0833a4db48fac750f1",
+      "tags": 44848,
+      "named tags": 44848,
+      "upstream_release": "v7.29645.1",
       "sources": {
         "upstream-db.raw.json": {
-          "url": "https://github.com/EhTagTranslation/Database/releases/download/v7.29569.1/db.raw.json",
-          "sha256": "dabd1878d94eb8336c4208290be9189d20fd9aecf3b69c6ee43bef85b41cf7a2"
+          "url": "https://github.com/EhTagTranslation/Database/releases/download/v7.29645.1/db.raw.json",
+          "sha256": "a8eeac37befd57140b4e0f8f7542d04e966ac9713719eb4906c7d51cbb6ebbc8"
         }
       },
       "failure": null

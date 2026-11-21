@@ -1,17 +1,17 @@
 {
-  "release": "v7.30120.1",
-  "upstream_release": "v7.30120.1",
+  "release": "v7.30121.1",
+  "upstream_release": "v7.30121.1",
   "datasets": {
     "en": {
       "file": "en.json",
       "sha256": "8fe24f4effbe67e482b702cb73179c1216b7473a53366987010359f355b2ad15",
       "tags": 44989,
       "named tags": 0,
-      "upstream_release": "v7.30120.1",
+      "upstream_release": "v7.30121.1",
       "sources": {
         "upstream-db.raw.json": {
-          "url": "https://github.com/EhTagTranslation/Database/releases/download/v7.30120.1/db.raw.json",
-          "sha256": "073595daad2f1cc578d29851721baaa119b7f57908be5e15e64aa36d4c83b27c"
+          "url": "https://github.com/EhTagTranslation/Database/releases/download/v7.30121.1/db.raw.json",
+          "sha256": "bbc17d87a71130f2ca6f2a026e4e061bcf6c4433fcaa2ca9bd45ebc2b328f7a5"
         }
       },
       "failure": null
@@ -21,11 +21,11 @@
       "sha256": "4e52a27e03a9cd058b3b04402bc6b60548f1fc501f4d44f5afc07d99b3e87a52",
       "tags": 46319,
       "named tags": 25647,
-      "upstream_release": "v7.30120.1",
+      "upstream_release": "v7.30121.1",
       "sources": {
         "upstream-db.raw.json": {
-          "url": "https://github.com/EhTagTranslation/Database/releases/download/v7.30120.1/db.raw.json",
-          "sha256": "073595daad2f1cc578d29851721baaa119b7f57908be5e15e64aa36d4c83b27c"
+          "url": "https://github.com/EhTagTranslation/Database/releases/download/v7.30121.1/db.raw.json",
+          "sha256": "bbc17d87a71130f2ca6f2a026e4e061bcf6c4433fcaa2ca9bd45ebc2b328f7a5"
         },
         "e-hentaidb.html": {
           "url": "https://e-hentaidb.com/tag/",
@@ -39,11 +39,11 @@
       "sha256": "a25a6ee395b39e970c48e8cef0d2afad4fc8472ea435cbeae9aa1b25e05d082b",
       "tags": 44989,
       "named tags": 4064,
-      "upstream_release": "v7.30120.1",
+      "upstream_release": "v7.30121.1",
       "sources": {
         "upstream-db.raw.json": {
-          "url": "https://github.com/EhTagTranslation/Database/releases/download/v7.30120.1/db.raw.json",
-          "sha256": "073595daad2f1cc578d29851721baaa119b7f57908be5e15e64aa36d4c83b27c"
+          "url": "https://github.com/EhTagTranslation/Database/releases/download/v7.30121.1/db.raw.json",
+          "sha256": "bbc17d87a71130f2ca6f2a026e4e061bcf6c4433fcaa2ca9bd45ebc2b328f7a5"
         },
         "korean-tags.json": {
           "url": "https://raw.githubusercontent.com/project-violet/tag-info/51233c8df9fd5d2247a82865ebef29cad8664b26/result-korean-merge.json",
@@ -54,28 +54,28 @@
     },
     "zh-Hans": {
       "file": "zh-Hans.json",
-      "sha256": "dc021e17d18e72676e2c606023b531926077db1f9db87217c14345f1863feac4",
+      "sha256": "6e463e9f1b0f68a86856f52234e18136485d5aeff616af71fdb1c0fbe19faaae",
       "tags": 44989,
       "named tags": 44989,
-      "upstream_release": "v7.30120.1",
+      "upstream_release": "v7.30121.1",
       "sources": {
         "upstream-db.raw.json": {
-          "url": "https://github.com/EhTagTranslation/Database/releases/download/v7.30120.1/db.raw.json",
-          "sha256": "073595daad2f1cc578d29851721baaa119b7f57908be5e15e64aa36d4c83b27c"
+          "url": "https://github.com/EhTagTranslation/Database/releases/download/v7.30121.1/db.raw.json",
+          "sha256": "bbc17d87a71130f2ca6f2a026e4e061bcf6c4433fcaa2ca9bd45ebc2b328f7a5"
         }
       },
       "failure": null
     },
     "zh-Hant": {
       "file": "zh-Hant.json",
-      "sha256": "3b0b64f146be66e398fa7324ec684d7718eb7858adf12c26777cf6fd62abe8a6",
+      "sha256": "7188c664d2a75c0451f214571c7622090ea2543e4741ab214e70db17a1f3c78b",
       "tags": 44989,
       "named tags": 44989,
-      "upstream_release": "v7.30120.1",
+      "upstream_release": "v7.30121.1",
       "sources": {
         "upstream-db.raw.json": {
-          "url": "https://github.com/EhTagTranslation/Database/releases/download/v7.30120.1/db.raw.json",
-          "sha256": "073595daad2f1cc578d29851721baaa119b7f57908be5e15e64aa36d4c83b27c"
+          "url": "https://github.com/EhTagTranslation/Database/releases/download/v7.30121.1/db.raw.json",
+          "sha256": "bbc17d87a71130f2ca6f2a026e4e061bcf6c4433fcaa2ca9bd45ebc2b328f7a5"
         }
       },
       "failure": null
